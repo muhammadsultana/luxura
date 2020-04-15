@@ -36,7 +36,7 @@
 																<div class="product_info d-flex flex-row align-items-start justify-content-start">
 																	<div>
 																		<div>
-																			<div class="product_name"><a href="product.html">Cool Clothing with Brown Stripes</a></div>
+																			<div class="product_name"><a href="<?= base_url('store/Produk/produk/' . $produk[0]->id_produk)?>""><?= $produk[0]->nama_produk ?></a></div>
 																			<div class="product_category">In <a href="category.html">Category</a></div>
 																		</div>
 																	</div>
@@ -71,7 +71,7 @@
 					</div>
 
 					<!-- Slide -->
-					<div class="owl-item">
+					<!-- <div class="owl-item">
 						<div class="background_image"></div>
 						<div class="container fill_height">
 							<div class="row fill_height">
@@ -130,10 +130,10 @@
 								</div>
 							</div>
 						</div>	
-					</div>
+					</div> -->
 
 					<!-- Slide -->
-					<div class="owl-item">
+					<!-- <div class="owl-item">
 						<div class="background_image" style="background-image:url(images/home.jpg)"></div>
 						<div class="container fill_height">
 							<div class="row fill_height">
@@ -192,10 +192,10 @@
 								</div>
 							</div>
 						</div>	
-					</div>
+					</div> -->
 
 					<!-- Slide -->
-					<div class="owl-item">
+					<!-- <div class="owl-item">
 						<div class="background_image" style="background-image:url(images/home.jpg)"></div>
 						<div class="container fill_height">
 							<div class="row fill_height">
@@ -254,7 +254,7 @@
 								</div>
 							</div>
 						</div>	
-					</div>
+					</div> -->
 
 				</div>
 				<!-- <div class="home_slider_nav home_slider_nav_prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>

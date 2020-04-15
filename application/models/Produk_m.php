@@ -18,6 +18,6 @@ class Produk_m extends MY_Model {
 
   public function get_single_produk($id_produk)
   {
-    return $this->db->get_where('produk', ['id_produk' => $id_produk])->result();
+    return $this->db->join('category', 'category.id_category = produk.id_category')->get_where('produk', ['id_produk' => $id_produk])->result();
   }
 }

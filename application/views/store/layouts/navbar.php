@@ -77,7 +77,6 @@
 				<!-- Phone -->
 				<div class="header_phone d-flex flex-row align-items-center justify-content-start">
 					<div><div><a href="https://wa.me/+6285764196854?text=Halo%20Luxura%20saya%20ingin%20pesan%20produk" target="__blank"><img src="<?= asset_url()?>store/images/phone.svg" alt="https://www.flaticon.com/authors/freepik"></a></div></div>
-					<div>+62 857 6419 6854</div>
 				</div>
 			</div>
 		</div>
